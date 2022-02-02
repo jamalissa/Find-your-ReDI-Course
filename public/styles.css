@@ -4,21 +4,39 @@ body {
   box-sizing: border-box;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(235, 209, 162);
 }
 
 .wrapper {
   width: 350px;
-  margin: 0 auto;
-  border: 2px solid red;
+  margin: 10px auto;
 }
 
 .heading {
   font-family: inherit;
+  color: firebrick;
   font-size: 3em;
   text-align: center;
 }
 
 .sub-heading {
+  padding: 40px 10px;
   font-family: inherit;
   text-align: center;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.btn-start {
+  font-size: 2.25em;
+  padding: 20px 10px;
+  color: rgba(24, 52, 216, 0.644);
+  background-color: transparent;
+  border-radius: 0.75em;
+  border: 1px solid black;
+  box-shadow: 1px 2.5px 10px black;
 }

@@ -7,6 +7,9 @@ export default function Header() {
       <h2 className="sub-heading">
         If you're here you want to know what course is best suited for you
       </h2>
+      <div class="btn-box">
+        <button className="btn-start">Start the Quiz</button>
+      </div>
     </div>
   );
 }
