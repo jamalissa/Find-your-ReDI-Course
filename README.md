@@ -13,9 +13,8 @@ We are helping potential ReDI students to find the best course that fits them wi
 We made a Figma mock-up of what shape the app would take and brainstormed what the main logic of the quiz would be.
 
 # Screenshot
-![] 
-(/design/figma_screenshot.png)
-(/design/figma_screenshot_2.png)
+![](/design/figma_screenshot.png)
+![](/design/figma_screenshot_2.png)
 
 
 
