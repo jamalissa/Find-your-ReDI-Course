@@ -8,9 +8,14 @@ is not easy to find the right ReDI course for each student and its hard to measu
 # Solution:
 We are helping potential ReDI students to find the best course that fits them with help of a quiz.
 
-# Meeting
+# Meeting #1
 
 We made a Figma mock-up of what shape the app would take and brainstormed what the main logic of the quiz would be.
+
+![Figma mock-up] 
+(./design/figma-screenshot.png)
+(./design/figma-screenshot_2.png)
+
 
 
 ## Meeting days:
