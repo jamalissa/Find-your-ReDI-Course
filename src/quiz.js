@@ -20,3 +20,5 @@ console.log(answerDisplay);
 // listen event handler for each button click
 // that increments a specific variable
 // maybe a function with
+
+// ask mentors about the GitHub branches and merging // Wednesday
