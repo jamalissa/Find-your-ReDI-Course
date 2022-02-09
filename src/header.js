@@ -1,14 +1,24 @@
 import React from "react";
+import logo from "./assets/redi_logo.png";
 
 export default function Header() {
   return (
     <div className="wrapper">
-      <h1 className="heading">Welcome to the ReDI Course Finder</h1>
+      <img className="img-logo" src={logo} alt="logo"></img>
+      <h1 className="heading">ReDI Course Finder</h1>
       <h2 className="sub-heading">
-        If you're here you want to know what course is best suited for you
+        So, you want to know what course is best suited for you but there are
+        just too many options to choose ? Don't worry. ReDI is here for you.
+        <br />
+        <br />
+        We prepared a few simple questions that will result in a clear winner.
+        You just have to start your journey.
       </h2>
       <div class="btn-box">
-        <button className="btn-start">Start the Quiz</button>
+        <button className="btn-start">
+          Are you ReDI ?<br />
+          {/* <small>click me!</small> */}
+        </button>
       </div>
     </div>
   );
