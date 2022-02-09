@@ -13,6 +13,7 @@ html {
 .wrapper {
   position: absolute;
   max-width: 400px;
+  height: 100%;
 }
 
 .img-logo {
@@ -63,10 +64,6 @@ html {
   display: flex;
   justify-content: center;
   padding: 20px 0px;
-}
-
-small {
-  font-size: 0.45em;
 }
 
 .btn-start {

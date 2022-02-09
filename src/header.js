@@ -14,7 +14,7 @@ export default function Header() {
         We prepared a few simple questions that will result in a clear winner.
         You just have to start your journey.
       </h2>
-      <div class="btn-box">
+      <div className="btn-box">
         <button className="btn-start">
           Are you ReDI ?<br />
           {/* <small>click me!</small> */}
