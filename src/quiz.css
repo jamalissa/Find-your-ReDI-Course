@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+.wrapper-quiz {
+  max-width: 375px;
+  height: 100%;
+  background-color: grey;
+}
+
+.question-box {
+  display: flex;
+  justify-content: center;
+  margin: 125px auto;
+}
+
+.question-box h3 {
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px 25px;
+}
+
+.answer-box {
+  max-width: inherit;
+  display: flex;
+  justify-content: justify;
+  align-items: center;
+  height: fit-content;
+}
+
+.answer-box button {
+  margin: 20px 25px;
+  padding: 10px 40px;
+  background-color: aqua;
+}
