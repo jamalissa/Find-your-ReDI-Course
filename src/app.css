@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
+  background-color: rgba(241, 240, 237, 0.966);
+}
+
+.wrapper {
+  position: absolute;
+  max-width: 400px;
+}
+
+.img-logo {
+  position: relative;
+  top: 45px;
+  left: 120px;
+  width: 140px;
+  height: 140px;
+}
+
+.heading {
+  font-family: inherit;
+  color: #58adc4;
+  font-size: 2.75em;
+  margin: 100px 0px auto;
+  text-align: center;
+  padding: 10px 10px;
+  height: fit-content;
+}
+
+.heading:hover {
+  border-left: 5px solid black;
+  padding-left: 10px;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+}
+
+.sub-heading {
+  padding: 40px 20px;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 120%;
+  word-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-indent: 1em;
+  text-align: justify;
+  height: fit-content;
+}
+
+.sub-heading:hover {
+  border-left: 5px solid black;
+  padding-left: 15px;
+  overflow: hidden;
+  transition: 0.7s ease-in-out;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+small {
+  font-size: 0.45em;
+}
+
+.btn-start {
+  font-size: 1.55em;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 20px 20px;
+  color: rgb(49, 49, 49);
+  background-color: rgba(89, 180, 241, 0.911);
+  border-radius: 0.25em;
+  outline: none;
+  border: none;
+  box-shadow: 0px 10px 25px rgba(126, 123, 123, 0.664);
+}
+
+.btn-start:hover {
+  transition: transform 1s;
+  transform: scale(1.25);
+}
