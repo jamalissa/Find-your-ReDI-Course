@@ -4,39 +4,42 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100%;
-}
-
 .wrapper-quiz {
-  max-width: 375px;
-  height: 100%;
+  position: absolute;
+  top: 0;
+  min-width: 375px;
+  min-height: inherit;
   background-color: grey;
 }
 
 .question-box {
-  display: flex;
-  justify-content: center;
-  margin: 125px auto;
+  height: 175px;
+  margin: 50px auto;
+  padding: 50px 15px;
+  background-color: white;
 }
 
 .question-box h3 {
   font-size: 2em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 10px 25px;
+  /* padding: 10px 25px; */
 }
 
 .answer-box {
   max-width: inherit;
-  display: flex;
   justify-content: justify;
   align-items: center;
   height: fit-content;
 }
 
 .answer-box button {
-  margin: 20px 25px;
-  padding: 10px 40px;
+  width: 300px;
+  margin: 20px 40px;
+  padding: 15px 50px;
   background-color: aqua;
+}
+
+.answer-box button:last-child {
+  margin-bottom: 75px;
 }
