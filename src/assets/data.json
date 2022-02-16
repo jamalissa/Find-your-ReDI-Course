@@ -1,21 +1,21 @@
 
-{
-    "1" : {
+[
+    {
     "question": "What is the first thing you notice when you visit a website ?",
     "answer": ["I have no idea what you mean", "I only use apps", "The advertisments", "If I can get to the information I need quickly"] 
     },
 
-   "2" : {
+    {
     "question": "What is the color of the sky ?",
-    "answer": ["knife","gun","rubber duck"]
+    "answer": ["knife","gun","rubber duck", "cats"]
 
 },
 
-   "3" : {
+    {
     "question": "What is the color of the sky ?",
     "answer": ["dog", "cat", "gorilla", "kiwi"]
 
-}}
+}]
 
 
 

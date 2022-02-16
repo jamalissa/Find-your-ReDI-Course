@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Quiz from "./quiz";
 import data from "./assets/data.json";
 
 export default function App() {
+  const [answerState, setAnswer] = useState([]);
+
+  console.log(answerState);
+
   return (
     <div>
-      <Quiz question={data[1]["question"]} answer={data[1]["answer"]} />
-      <Quiz question={data[2]["question"]} answer={data[2]["answer"]} />
-      <Quiz question={data[3]["question"]} answer={data[3]["answer"]} />
+      {data.map((newData, index) => {
+        return (
+          <Quiz
+            key={index}
+            question={newData.question}
+            answer={newData.answer}
+            setAnswer={setAnswer}
+            answerState={answerState}
+          />
+        );
+      })}
     </div>
   );
 }

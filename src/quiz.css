@@ -19,8 +19,8 @@ body {
 }
 
 .question-box {
-  min-height: max-content;
-  margin: 50px auto;
+  min-height: fit-content;
+  margin: 0px auto;
   padding: 50px 15px;
   background-color: white;
 }
@@ -60,7 +60,7 @@ body {
 
 .btn-next {
   width: 225px;
-  margin: 30px 80px;
+  margin: 30px 81px;
   padding: 15px 50px;
   background-color: orange;
   border: none;

@@ -1,32 +1,40 @@
 import React from "react";
 import "./quiz.css";
 
-export default function Quiz(props) {
-  // Listen to btn-clicks (not working because of confliting class name)
-
-  // document.querySelector(".btn-answer").addEventListener("click", function () {
-  //   let result;
-  //   result += document.querySelector(".btn-answer").value;
-  //   console.log(result);
-  // });
+export default function Quiz({ answer, setAnswer, question, answerState }) {
+  function answerSelection(answer) {
+    setAnswer([...answerState, answer]);
+  }
 
   return (
     <div className="wrapper-quiz">
       <div className="question-box">
-        <h3>{props.question}</h3>
+        <h3>{question}</h3>
       </div>
       <div className="answer-box">
-        <button className="btn-answer" value="a">
-          {props.answer[0]}
+        <button
+          className="btn-answer"
+          onClick={() => answerSelection(answer.indexOf(answer[0]))}
+        >
+          {answer[0]}
         </button>
-        <button className="btn-answer" value="b">
-          {props.answer[1]}
+        <button
+          className="btn-answer"
+          onClick={() => answerSelection(answer.indexOf(answer[1]))}
+        >
+          {answer[1]}
         </button>
-        <button className="btn-answer" value="c">
-          {props.answer[2]}
+        <button
+          className="btn-answer"
+          onClick={() => answerSelection(answer.indexOf(answer[2]))}
+        >
+          {answer[2]}
         </button>
-        <button className="btn-answer" value="d">
-          {props.answer[3]}
+        <button
+          className="btn-answer"
+          onClick={() => answerSelection(answer.indexOf(answer[3]))}
+        >
+          {answer[3]}
         </button>
         <button className="btn-next">Next Question</button>
       </div>
