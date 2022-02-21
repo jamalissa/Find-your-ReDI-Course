@@ -36,7 +36,14 @@ export default function Quiz({ answer, setAnswer, question, answerState }) {
         >
           {answer[3]}
         </button>
-        <button className="btn-next">Next Question</button>
+        <button
+          className="btn-next"
+          onClick={() =>
+            window.scrollBy({ top: window.innerHeight, behavior: "smooth" })
+          }
+        >
+          Next Question
+        </button>
       </div>
     </div>
   );
