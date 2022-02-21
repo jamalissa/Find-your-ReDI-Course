@@ -11,24 +11,32 @@ export default function App() {
   // find out how many times an index is repeated.
   // Biggest one wins and shows the answer
 
-  function mostRepeat() {
-    let result = [];
-
-    answerState.forEach((item) => {
-      if (item === 0) {
-        result.push(item);
-      } else if (item === 1) {
-        result.push(item);
-      } else if (item === 2) {
-        result.push(item);
-      } else result.push(item);
-    });
-    result = Math.max(...result);
-
-    return result;
+  function getMostFrequent(answerState) {
+    const hashmap = answerState.reduce((acc, val) => {
+      acc[val] = (acc[val] || 0) + 1;
+      return acc;
+    }, {});
+    return Object.keys(hashmap).reduce((a, b) =>
+      hashmap[a] > hashmap[b] ? a : b
+    );
   }
 
-  console.log(mostRepeat());
+  // function mostRepeat() {
+  //   let result = [];
+
+  //   answerState.forEach((item) => {
+  //     if (item === 0) {
+  //       result.push(item);
+  //     } else if (item === 1) {
+  //       result.push(item);
+  //     } else if (item === 2) {
+  //       result.push(item);
+  //     } else result.push(item);
+  //   });
+  //   result = Math.max(...result);
+
+  //   return result;
+  // }
 
   return (
     <div>
