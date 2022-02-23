@@ -1,9 +1,22 @@
 import React from "react";
 import "./quiz.css";
 
-export default function Quiz({ answer, setAnswer, question, answerState }) {
-  function answerSelection(answer) {
-    setAnswer([...answerState, answer]);
+export default function Quiz({
+  answer,
+  setAnswer,
+  question,
+  answerState,
+  lastQuestion,
+  id,
+}) {
+  function answerSelection(answer, id) {
+    if (id !== answerState.id) {
+      setAnswer({
+        ...answerState,
+        answersArray: [...answerState.answersArray, answer],
+        id: id,
+      });
+    }
   }
 
   return (
@@ -14,25 +27,25 @@ export default function Quiz({ answer, setAnswer, question, answerState }) {
       <div className="answer-box">
         <button
           className="btn-answer"
-          onClick={() => answerSelection(answer.indexOf(answer[0]))}
+          onClick={() => answerSelection(answer.indexOf(answer[0]), id)}
         >
           {answer[0]}
         </button>
         <button
           className="btn-answer"
-          onClick={() => answerSelection(answer.indexOf(answer[1]))}
+          onClick={() => answerSelection(answer.indexOf(answer[1]), id)}
         >
           {answer[1]}
         </button>
         <button
           className="btn-answer"
-          onClick={() => answerSelection(answer.indexOf(answer[2]))}
+          onClick={() => answerSelection(answer.indexOf(answer[2]), id)}
         >
           {answer[2]}
         </button>
         <button
           className="btn-answer"
-          onClick={() => answerSelection(answer.indexOf(answer[3]))}
+          onClick={() => answerSelection(answer.indexOf(answer[3]), id)}
         >
           {answer[3]}
         </button>
@@ -42,7 +55,7 @@ export default function Quiz({ answer, setAnswer, question, answerState }) {
             window.scrollBy({ top: window.innerHeight, behavior: "smooth" })
           }
         >
-          Next Question
+          {lastQuestion ? "See the results!" : "Next Question"}
         </button>
       </div>
     </div>

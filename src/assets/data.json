@@ -1,19 +1,25 @@
 
 [
     {
+    "id": "QuestionOne",
     "question": "What is the first thing you notice when you visit a website ?",
-    "answer": ["I have no idea what you mean", "I only use apps", "The advertisments", "If I can get to the information I need quickly"] 
+    "answer": ["I have no idea what you mean", "I only use apps", "The advertisments", "If I can get to the information I need quickly"], 
+    "lastQuestion": false
     },
 
     {
+    "id": "QuestionTwo",
     "question": "What is the color of the sky ?",
-    "answer": ["knife","gun","rubber duck", "cats"]
+    "answer": ["knife","gun","rubber duck", "cats"],
+    "lastQuestion": false
 
 },
 
     {
+    "id": "QuestionThree",
     "question": "What is the color of the sky ?",
-    "answer": ["dog", "cat", "gorilla", "kiwi"]
+    "answer": ["dog", "cat", "gorilla", "kiwi"],
+    "lastQuestion": true
 
 }]
 
