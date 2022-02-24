@@ -2,15 +2,23 @@
 [
     {
     "id": "QuestionOne",
-    "question": "What is the first thing you notice when you visit a website ?",
-    "answer": ["I have no idea what you mean", "I only use apps", "The advertisments", "If I can get to the information I need quickly"], 
+    "question": "When you enter a website what is the first thing you notice ?",
+    "answer": [
+        "I like the snazzy animations. They look so cool!",
+        "I like how everything is organized and how the information is shown", 
+        "I like how they offer me cookies right from the start", 
+        "I think about where is this information stored"], 
     "lastQuestion": false
     },
 
     {
     "id": "QuestionTwo",
-    "question": "What is the color of the sky ?",
-    "answer": ["knife","gun","rubber duck", "cats"],
+    "question": "How do you feel about the Internet as you know it ?",
+    "answer": [
+        "I think it has really evolved from since its beginnings",
+        "There is so much to see and experience in the world and it allows me to be a part of that",
+        "I can speak to it and it talks back!",
+        "I only hope someone is making hard copies of this as we go!"],
     "lastQuestion": false
 
 },

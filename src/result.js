@@ -9,6 +9,9 @@ export default function Result({ answState }) {
   return (
     <div>
       <main className="result-wrapper">
+        <div className="result-heading-container">
+          <h3 className="result-heading">The results are in!</h3>
+        </div>
         <div className="result-info">
           <h4>
             Congrats! Based on your answers this is the choice we think is best
