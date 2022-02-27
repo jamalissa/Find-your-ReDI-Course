@@ -21,12 +21,6 @@ export default function App() {
   console.log(answerState);
   // console.log(getMostFrequent(answerState.answersArray));
 
-  // retrieve answers from answerState array and
-  // find out how many times an index is repeated.
-  // Biggest one wins and shows the answer
-
-  // Get the most frequent answer for the results page //
-
   return (
     <div>
       {data.map((newData, index) => {
@@ -46,20 +40,3 @@ export default function App() {
     </div>
   );
 }
-
-// function mostRepeat() {
-//   let result = [];
-
-//   answerState.forEach((item) => {
-//     if (item === 0) {
-//       result.push(item);
-//     } else if (item === 1) {
-//       result.push(item);
-//     } else if (item === 2) {
-//       result.push(item);
-//     } else result.push(item);
-//   });
-//   result = Math.max(...result);
-
-//   return result;
-// }

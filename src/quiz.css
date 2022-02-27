@@ -8,20 +8,22 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow: hidden;  uncomment at the end to not allow scrolling */
 }
 
 .wrapper-quiz {
   /* position: absolute;
   top: 0; */
   min-width: 375px;
-  min-height: 102vh;
-  background-color: grey;
+  min-height: 100vh;
+  background-color: white;
+  overflow: hidden;
 }
 
 .question-box {
-  min-height: fit-content;
+  max-height: 200px;
   margin: 0px auto;
-  padding: 50px 15px;
+  padding: 20px 15px;
   background-color: white;
 }
 
@@ -32,13 +34,14 @@ body {
   line-height: 1.25em;
   font-weight: 400;
   padding: 10px 25px;
+  text-align: center;
 }
 
 .answer-box {
   max-width: inherit;
   justify-content: justify;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .btn-answer {
@@ -46,21 +49,21 @@ body {
   font-size: 1.1em;
   font-weight: 600;
   width: 300px;
-  margin: 20px 40px;
-  padding: 15px 50px;
-  background-color: aqua;
+  margin: 15px 40px;
+  padding: 15px 25px;
   border: none;
+  background-color: rgba(14, 116, 211, 0.739);
   border-radius: 10px;
   text-align: center;
 }
 
 .answer-box button:nth-child(4) {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .btn-next {
   width: 225px;
-  margin: 30px 81px;
+  margin: 35px 81px;
   padding: 15px 50px;
   background-color: orange;
   border: none;

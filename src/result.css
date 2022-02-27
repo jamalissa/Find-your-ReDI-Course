@@ -14,8 +14,8 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 102vh;
-  margin: 10px 0px;
+  height: 100vh;
+  margin: 0px 0px;
   padding: 0px;
 }
 .result-heading-container {
@@ -23,7 +23,7 @@ html {
   font-size: 2.5em;
   font-weight: 700;
   width: 345px;
-  height: 75px;
+  height: fit-content;
   margin: 0 auto;
 }
 
@@ -35,6 +35,21 @@ html {
 .result-info {
   margin: 0px auto;
   width: 345px;
-  height: 600px;
+  height: 450px;
   background-color: orange;
+}
+
+.btn-restart {
+  position: relative;
+  top: 325px;
+  left: 77px;
+  font-family: inherit;
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 200px;
+  padding: 15px 25px;
+  border: none;
+  background-color: rgba(14, 116, 211, 0.739);
+  border-radius: 10px;
+  text-align: center;
 }

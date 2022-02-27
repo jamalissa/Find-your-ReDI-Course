@@ -19,6 +19,8 @@ export default function Quiz({
     }
   }
 
+  console.log({ answer });
+
   return (
     <div className="wrapper-quiz">
       <div className="question-box">
@@ -51,9 +53,7 @@ export default function Quiz({
         </button>
         <button
           className="btn-next"
-          onClick={() =>
-            window.scrollBy({ top: window.innerHeight, behavior: "smooth" })
-          }
+          onClick={() => window.scrollBy({ top: 757, behavior: "smooth" })}
         >
           {lastQuestion ? "See the results!" : "Next Question"}
         </button>
