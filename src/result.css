@@ -35,14 +35,22 @@ html {
 .result-info {
   margin: 0px auto;
   width: 345px;
-  height: 450px;
-  background-color: orange;
+  height: 550px;
+  background-color: coral;
+}
+
+.result-info-para {
+  width: 300px;
+  height: fit-content;
+  color: black;
+  font-family: inherit;
+  font-size: 1em;
 }
 
 .btn-restart {
   position: relative;
-  top: 325px;
-  left: 77px;
+  top: 455px;
+  left: 75px;
   font-family: inherit;
   font-size: 1.1em;
   font-weight: 600;
