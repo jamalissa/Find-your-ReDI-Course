@@ -8,12 +8,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow: hidden;  uncomment at the end to not allow scrolling */
+  /* overflow: hidden; */
 }
 
 .wrapper-quiz {
   /* position: absolute;
   top: 0; */
+  position: relative;
   min-width: 375px;
   min-height: 100vh;
   background-color: white;
@@ -46,15 +47,15 @@ body {
 
 .btn-answer {
   font-family: inherit;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.25em;
+  font-weight: 500;
   width: 300px;
-  margin: 15px 40px;
-  padding: 15px 25px;
+  margin: 10px 40px;
+  padding: 15px 30px;
   border: none;
   background-color: rgba(14, 116, 211, 0.739);
   border-radius: 10px;
-  text-align: center;
+  text-align: justify;
 }
 
 .answer-box button:nth-child(4) {
@@ -62,6 +63,8 @@ body {
 }
 
 .btn-next {
+  position: absolute;
+  bottom: 65px;
   width: 225px;
   margin: 35px 81px;
   padding: 15px 50px;
