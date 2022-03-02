@@ -32,15 +32,15 @@
 },
     {
     "id": "QuestionFour",
-    "question": "What draws you in the most out of these four options ?",
-    "answer": ["LEGOs", "Crayons", "Graphs & Charts", "Clouds"],
+    "question": "Out of these four options which one would you be more interested ?",
+    "answer": ["Building websites", "Designing websites", "Deal with user data", "Manage the infrastructure where all this is stored"],
     "lastQuestion": false
 
 },
     {
     "id": "QuestionFive",
-    "question": "What draws you in the most out of these four options ?",
-    "answer": ["LEGOs", "Crayons", "Graphs & Charts", "Clouds"],
+    "question": "Where do you see yourself in five years ?",
+    "answer": ["As a Web Developer", "As a Web Designer", "As a Data Analyst", "As a Network Engineer"],
     "lastQuestion": true
 
 }]

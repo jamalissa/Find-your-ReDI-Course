@@ -16,7 +16,10 @@ export default function Header() {
         You just have to start your journey.
       </h2>
       <div className="btn-box">
-        <button className="btn-start">
+        <button
+          className="btn-start"
+          onClick={() => window.scrollBy({ top: 757, behavior: "smooth" })}
+        >
           Are you ReDI ?<br />
           {/* <small>click me!</small> */}
         </button>

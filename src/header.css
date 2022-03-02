@@ -11,9 +11,9 @@ html {
 }
 
 .wrapper {
-  position: absolute;
+  /* position: absolute; */
   max-width: 400px;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .img-logo {
