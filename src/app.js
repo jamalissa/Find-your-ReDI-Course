@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import Quiz from "./quiz";
 import Result from "./result";
@@ -14,6 +15,11 @@ export const getMostFrequent = (arr) => {
     );
   } else console.log("the array is empty");
 };
+=======
+import React from "react";
+import Header from "./header";
+import "./app.css";
+>>>>>>> develop
 
 export default function App() {
   const [answerState, setAnswer] = useState({ id: "", answersArray: [] });
