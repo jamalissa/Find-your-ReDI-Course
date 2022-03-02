@@ -25,6 +25,7 @@ export default function App() {
 
   return (
     <div>
+      <Header />
       {data.map((newData, index) => {
         return (
           <Quiz
