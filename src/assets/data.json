@@ -1,0 +1,50 @@
+
+[
+    {
+    "id": "QuestionOne",
+    "question": "When you enter a website what is the first thing you notice ?",
+    "answer": [
+        "I like the snazzy animations. They look so cool!",
+        "I like how everything looks like it's in their right place", 
+        "I like how they offer me cookies right from the start", 
+        "I think about where is this information stored"], 
+    "lastQuestion": false
+    },
+
+    {
+    "id": "QuestionTwo",
+    "question": "How do you feel about the Internet as you know it ?",
+    "answer": [
+        "I think it has really evolved from since its very colorful beginnings",
+        "It allows me to experience and take in the whole world",
+        "It's amazing that I can speak to the Internet and it talks back to me!",
+        "I only hope someone is making hard copies of this as we go!"],
+    "lastQuestion": false
+
+},
+
+    {
+    "id": "QuestionThree",
+    "question": "What draws you in the most out of these four options ?",
+    "answer": ["LEGOs", "Crayons", "Graphs & Charts", "Clouds"],
+    "lastQuestion": false
+
+},
+    {
+    "id": "QuestionFour",
+    "question": "What draws you in the most out of these four options ?",
+    "answer": ["LEGOs", "Crayons", "Graphs & Charts", "Clouds"],
+    "lastQuestion": false
+
+},
+    {
+    "id": "QuestionFive",
+    "question": "What draws you in the most out of these four options ?",
+    "answer": ["LEGOs", "Crayons", "Graphs & Charts", "Clouds"],
+    "lastQuestion": true
+
+}]
+
+
+
+
