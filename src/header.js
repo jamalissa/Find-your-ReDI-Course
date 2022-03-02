@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./assets/redi_logo.png";
+import "./header.css";
 
 export default function Header() {
   return (
